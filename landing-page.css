@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-.filter-icon-color {
+#filter-icon-color {
   filter: invert(48%) sepia(92%) saturate(750%) hue-rotate(360deg) brightness(103%) contrast(103%);
 }
 
