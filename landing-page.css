@@ -1,4 +1,3 @@
-@media screen and (max width: 800px)
 html, body {
   margin: 0px;
   padding: 0px;
@@ -10,43 +9,9 @@ body {
 }
 
 header {
-  position: fixed;
-  top: 0px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: #eee;
-  min-height: 75px;
-}
-header-img {
-  margin: auto;
 }
 
-@media (max-width: 600px) {
-  header {
-    flex-wrap: wrap;
-  }
-}
-
-.logo {
-  width: 300px;
-}
-
-#nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#headliner {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 50px;
-
-}
 
 li {
   list-style: none;
@@ -57,20 +22,14 @@ a {
   text-decoration: none;
 }
 
+.filter-icon-color {
+  filter: invert(48%) sepia(92%) saturate(750%) hue-rotate(360deg) brightness(103%) contrast(103%);
+}
+
 #how-it-works, iframe {
   margin: 50px;
   display: flex;
   justify-content: center;
-}
-
-.product {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 1px, solid, #000;
-  border-radius: 3px;
-  margin: 10px;
 }
 
 footer {
